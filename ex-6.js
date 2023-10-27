@@ -1,9 +1,9 @@
 let height = undefined;
-let result = check(height);
+let result = checkHeight(height);
 
-function check(height){
-    let check = height ?? "Height is not defined";
-    return check;
-};
+function checkHeight(height) {
+    let result = height ?? "Height is not defined";
+    return result;
+}
 
 console.log(result); //  Result ควรจะได้ออกมาเป็น “Height is not defined”
