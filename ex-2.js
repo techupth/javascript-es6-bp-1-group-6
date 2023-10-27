@@ -13,5 +13,6 @@ let studentScores = {
 };
 
 // Start coding here
-
+let newStudentProfile = {...studentProfile, //เฉพาะ ส่วนของ Profile
+  scores: {...studentProfile.scores,...studentScores}}; //ส่วนของ scores และ scores thai จากฝั่ง studentProfile
 console.log(newStudentProfile);
